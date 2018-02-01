@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+
+/*beginning of header section*/
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 60px;
+  margin: 10px 10px 10px 20px;
+}
+
+#name {
+  font-size: 14px;
+  color:mediumaquamarine;
+}
+
+nav {
+  margin: 0 40px;
+  display: inline-block;
+}
+
+span {
+  padding: 15px;
+}
+
+
+span a {
+  color: black;
+}
+
+#heading {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+/*beginning of main section*/
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding-top: 40px;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+div .article {
+  border: 1px solid black;
+}
+
+.food {
+  background-image: url("../images/img-story-main.png");
+}
+
+.cat {
+  background-image: url("../images/img-story-1.png");
+}
+
+.outdoors {
+  background-image: url("../images/img-story-2.png");
+}
+
+.camera {
+  background-image: url("../images/img-story-3.png");
+}
+
+.image {
+  display: flex;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.caption {
+  color: white;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+div .image {
+  display: flex;
+}
+
+div .food .image h2 .caption {
+  font-size: 40px;
+}
